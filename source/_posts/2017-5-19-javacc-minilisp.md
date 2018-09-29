@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Write a simple parser for MiniLisp by using JavaCC"
 categories: java javacc lisp
 author: alenym@qq.com
@@ -14,10 +13,10 @@ author: alenym@qq.com
 
 ## <a name="hh0"></a> MiniLisp是什么？ ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 [MiniLisp](https://github.com/rui314/minilisp)是一个只用几百行代码实现的Lisp。以下是实现的
 基本特性。
 
@@ -31,35 +30,35 @@ author: alenym@qq.com
 - a macro system,
 - and a copying garbage collector.
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 在笔者看来真是麻雀虽小五脏俱全啊。这是一个非常值得研究的项目。
 
 ## <a name="hh1"></a> JavaCC是什么？ ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 [JavaCC](https://javacc.org/)据说是一个非常易用好理解的`LL(k)`的Parser生成工具。
 说它好理解是指它生成的Java代码要比`LR`类型的容易理解。毕竟`LL`是`Top-Down Parser`呀。
 笔者以前只用过`LR(1)`类型的工具，`JavaCC`则从来没用过。
 
 ## <a name="hh2"></a> MiniLisp的BNF语法描述没有怎么办？ ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 `MiniLisp`的作者并没有使用`yacc`等工具，而是自己手写的`Top-Down Parser`。所以无法得到
 `MiniLisp`的BNF描述。
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 没关系，既然是Lisp方言，那么先看看传统的Lisp的BNF语法是什么。这里有一个简单的BNF版本
 [BNF rules of LISP](http://cui.unige.ch/isi/bnf/LISP/BNFlisp.html)
 
@@ -84,10 +83,10 @@ author: alenym@qq.com
 
 ## <a name="hh3"></a> MiniLisp的jj文件 ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 以下是用JavaCC生成MiniLisp
  Parser的jj文件。用javacc编译之后，会报一个警告`117行和118行发生conflict`。但是笔者已经加上`LOOKAHEAD(2)`了。
 不知道为什么还警告，而且也单独对这部分进行了测试，完全没有问题。另外，这个生成的Parser并没有构造AST。
@@ -220,10 +219,10 @@ void Symbol():
 
 ## <a name="hh4"></a> 测试代码 ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 以下是对生成的MiniLisp.java文件进行测试的类。其中`test14`和`test15`是对
 MiniLisp项目下的life.lisp和nqueens.lisp文件内容完整解析测试。
 没有报错，说明jj中的规则可以解析MiniLisp。

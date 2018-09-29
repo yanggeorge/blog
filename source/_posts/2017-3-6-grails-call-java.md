@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How to call java code in Grails 3.2.6"
 categories: java grails gradle
 author: alenym@qq.com
@@ -15,10 +14,10 @@ author: alenym@qq.com
 
 ## <a name="hh0"></a> 解决方法 ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 我的`Grails`的环境是
 	
 	grails -v
@@ -33,10 +32,10 @@ grails 3.2.6是用gradle进行构建的。所以如果要添加java类，
 ## <a name="hh1"></a> 第一步 ##
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 创建`src/main/java`目录。对于`com.yanggeorge.XMLtest`类，
 则要创建`src/main/java/com/yanggeorge/`目录，并把XMLtest.java放在该
 路径下。
@@ -44,10 +43,10 @@ grails 3.2.6是用gradle进行构建的。所以如果要添加java类，
 ## <a name="hh2"></a> 第二步 ##
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 在`build.gradle`文件中添加如下代码
 
 ```groovy
@@ -82,10 +81,10 @@ compileOne.options.compilerArgs = ["-sourcepath", "$projectDir/src/main/java"]
 ## <a name="hh4"></a> 第四步 ##
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 修改`grails-app/conf/spring/resources.groovy`
 
 ```groovy
@@ -98,10 +97,10 @@ beans = {
 
 ## <a name="hh5"></a> 第五步 ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 已经可以使用`myXMLtest`了，例如创建一个service，`grails-app/services/rss/RssService.groovy`
 第６行就是依赖注入的bean。
 ```groovy

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Gradle脚本实现web开发框架的一键构建"
 categories: java gradle build 
 author: alenym@qq.com
@@ -12,19 +11,19 @@ author: alenym@qq.com
 
 ## <a name="hh0"></a> 问题 ##
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 Java世界里构建项目用什么工具呢，ant，maven和gradle。maven非常流行，
 原因无非是maven仓库和项目架构的约定。但是ant构建过程更加容易理解，
 因为ant展示了所有的操作。gradle拥有基于groovy语言的DSL语言且继承了
 maven仓库的思想所以笔者认为未来是属于gradle的。
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 特别是最近在搭建springmvc-jpa-mysql开发框架的时候，发现怎么也找不到一个
 archetype可以做到一键构建demo project。
 
 ## <a name="hh1"></a> 何谓一键构建 ##
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 何谓一键构建呢，有人用maven也可以很快搭建一个，通常可以把之前的
 项目复制一份修改一下，似乎没有那么麻烦。但笔者还是觉得执行几个命令，
 回车一下就构建完成，更加让人舒心。如图所示，创建一个空项目dir，然后把build.gradle
@@ -34,21 +33,21 @@ archetype可以做到一键构建demo project。
 	gradle build -x test
 	gradle run
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 就可以在浏览器里访问`http://localhost:8080/greeting?name=GoodJob`链接了。
 以下是过程展示。当然了因为jar包都已经下载过了，所以似乎还比较快。
 否则的话一定会联网下载jar包的。
 ![gradle-build-process](/images/2017-5-24-1.gif)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 以下导入IDEA中后所示的文件结构。
 ![gradle-project-structure](/images/2017-5-24-2.jpg)
 
 ## <a name="hh2"></a> build.gradle文件内容 ##
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 `build.gradle`构建基于spring-boot的springmvc-jpa-mysql框架demo项目的脚本如下。
 该脚本一目了然，无需赘述。
 

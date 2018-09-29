@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "编译和运行Clojure分支20081217源码"
 categories: java clojure jvm
 author: alenym@qq.com
@@ -12,10 +11,10 @@ author: alenym@qq.com
 - [运行　](#hh3) 
 
 ## <a name="hh0"></a> Clojure branch 20081217 ##
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 为啥要做这件事情呢？
 
 1. Clojure是一门jvm语言，使用了asm。
@@ -23,10 +22,10 @@ author: alenym@qq.com
 
 ## <a name="hh1"></a> 下载branch 20081217 ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 本来直接这样一条语句很简单的事情，但是由于网络太慢。我只好
 直接下载这个分支的源码zip包。
 
@@ -37,10 +36,10 @@ author: alenym@qq.com
 ## <a name="hh2"></a> 编译环境配置 ##
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 虽然有`pom.xml`文件但是简单的导入到`IDEA`并不起作用。
 还是按照官方说明来搞吧，用`ant`编译。
 下载最新的ant版本1.10，并使用jdk1.8是会出错的。
@@ -78,10 +77,10 @@ author: alenym@qq.com
 ## <a name="hh3"></a> 运行　 ##
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 官方`readme`给出了办法来证明运行成功。执行`java -cp clojure.jar clojure.lang.Repl`
 ，这样就可以进入clojure的repl环境。
 
@@ -95,20 +94,20 @@ author: alenym@qq.com
 
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 如何运行一个clj文件呢？可以这样做。
 
 - 在根路径下创建一个hello.clj文件，内容为`(print "hello world")`
 - 运行命令`java -cp clojure.jar clojure.lang.Script hello.clj`
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 如下所示。
 
 
@@ -116,9 +115,9 @@ author: alenym@qq.com
 	hello world
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 成功了。
 

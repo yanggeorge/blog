@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 在WIN10下使用Cython
 categories: Cython  Python
 author: alenym@qq.com
@@ -14,20 +13,20 @@ author: alenym@qq.com
 
 ## <a name="hh0"></a> Cython ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 `Cython`不是`CPython`的简称，而是一种提升`Python`代码执行效率的解决方案。
 据说一般达到30x。一会我们来看看是不是真的。这个技术对老鸟来说已经是好多
 年前的了。但是很多情况下python用户真的用不上，所以不知道也无妨。
 
 ## <a name="hh1"></a> 软件安装 ##
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 我已经迁移到`python3`了，使用的是`Anaconda`。感谢`Anaconda`让我们的生活变
 的更加美好。以下软件安装的顺序不要错。
 
@@ -37,10 +36,10 @@ author: alenym@qq.com
 ## <a name="hh2"></a> 跟着Cython的tutorial走 ##
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+
+
 先创建一个helloworld.pyx文件。内容如下。
 
 ```python
@@ -55,7 +54,7 @@ def fib(n):
 ```
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 再创建一个setup.py文件。内容如下
 
 ```python
@@ -69,7 +68,7 @@ setup(
 ```
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 然后在命令行输入
 
 	D:\tmp\oo>python setup.py build_ext --inplace
@@ -84,7 +83,7 @@ setup(
 	Finished generating code
 	
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 (WIN10下的命令窗口终于可以使用ctrl-c和ctrl-v了。泪奔。)
 可以发现多了一个`.pyd`文件。然后测试一下。
 
@@ -98,14 +97,14 @@ setup(
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 真是不错啊。可是如果你换一个目录比如不在当前包含`.pyd`的目录下，
 再想导入helloworld则是不行的。怎么回事，我们不是已经setup了么。
 原因在于`--inplace`这个参数，它表示只生成动态链接库。
 
 ## <a name="hh3"></a> 与python代码进行测试比较 ##
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 我们还在那个目录下创建一个`test.py`文件。
 ```python
 #test.py
@@ -135,7 +134,7 @@ if __name__ == "__main__":
     test_fib_cython()
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 然后运行
 
 	D:\tmp\oo>python test.py
@@ -144,7 +143,7 @@ if __name__ == "__main__":
 	cython fib : 0.01739922s
 	
  
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 怎么回事，说好的30x呢，还轻轻松松？别着急，我们把之前的`helloworld.pyx`
 修改一下。
 
@@ -158,7 +157,7 @@ cpdef int fib(int n) :
         return fib(n - 2) + fib(n - 1)
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 再运行一下瞅瞅。
 
 	D:\tmp\oo>python test.py
@@ -167,5 +166,5 @@ cpdef int fib(int n) :
 	cython fib : 0.00059495s
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 真是不错哦，诚不我欺，100x。
