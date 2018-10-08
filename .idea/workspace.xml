@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/_posts/2016-10-24-leetcode-224.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2016-10-24-leetcode-224.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2016-12-19-leetcode-282.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2016-12-19-leetcode-282.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2016-12-21-get-val-name-and-value.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2016-12-21-get-val-name-and-value.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2016-12-22-pandas-read-csv.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2016-12-22-pandas-read-csv.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2016-12-26-leetcode-315.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2016-12-26-leetcode-315.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2016-12-31-leetcode-327.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2016-12-31-leetcode-327.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2016-9-27-leetcode-200.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2016-9-27-leetcode-200.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-1-12-cython-on-win10.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-1-12-cython-on-win10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-1-18-venv-no-pip.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-1-18-venv-no-pip.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-1-31-leetcode-295.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-1-31-leetcode-295.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-07-leetcode-312.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-07-leetcode-312.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-11-27-find-top-n.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-11-27-find-top-n.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-3-12-leetcode-329.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-3-12-leetcode-329.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-3-23-compile-and-run-clojure.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-3-23-compile-and-run-clojure.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-3-6-grails-call-java.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-3-6-grails-call-java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-5-19-javacc-minilisp.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-5-19-javacc-minilisp.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-5-24-gradle-build-project.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-5-24-gradle-build-project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-7-9-resize-fixed-image.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-7-9-resize-fixed-image.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2018-2-24-robber-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-2-24-robber-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2018-8-18-leetcode-341.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-8-18-leetcode-341.md" afterDir="false" />
-    </list>
+    <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,7 +27,7 @@
           <entry key="md" value="176" />
           <entry key="png" value="1" />
           <entry key="swig" value="3" />
-          <entry key="yml" value="4" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -56,19 +35,19 @@
           <entry key="Image" value="1" />
           <entry key="Markdown" value="175" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="YAML" value="4" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="686" />
-          <entry key="yml" value="56" />
+          <entry key="yml" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="686" />
-          <entry key="YAML" value="56" />
+          <entry key="YAML" value="72" />
         </counts>
       </usages-collector>
     </session>
@@ -171,14 +150,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/2018-8-18-leetcode-341.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <first_editor relative-caret-position="506">
+                <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="302" column="21" selection-start-line="302" selection-start-column="21" selection-end-line="302" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -210,7 +198,6 @@
       <list>
         <option value="$PROJECT_DIR$/source/about/index.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/2018-10-08-minilisp.md" />
         <option value="$PROJECT_DIR$/source/_posts/2018-8-18-leetcode-341.md" />
         <option value="$PROJECT_DIR$/source/_posts/2018-2-24-robber-3.md" />
@@ -232,6 +219,7 @@
         <option value="$PROJECT_DIR$/source/_posts/2017-1-12-cython-on-win10.md" />
         <option value="$PROJECT_DIR$/source/_posts/2017-1-18-venv-no-pip.md" />
         <option value="$PROJECT_DIR$/source/_posts/2017-1-31-leetcode-295.md" />
+        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
       </list>
     </option>
   </component>
@@ -351,15 +339,16 @@
       <updated>1538209660642</updated>
       <workItem from="1538209662934" duration="212000" />
       <workItem from="1538209924038" duration="2591000" />
-      <workItem from="1538967635407" duration="9116000" />
+      <workItem from="1538967635407" duration="9297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11919000" />
+    <option name="totallyTimeSpent" value="12100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1005" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19062665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -425,13 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -643,10 +625,17 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2018-8-18-leetcode-341.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <first_editor relative-caret-position="506">
+            <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="302" column="21" selection-start-line="302" selection-start-column="21" selection-end-line="302" selection-end-column="21" />
         </state>
       </provider>
     </entry>
