@@ -1,7 +1,11 @@
 ---
 title: 使用pandas.read_csv()读取csv文件
-categories:  Python 技巧
+tags:  
+  - python 
+  - 技巧
+  
 author: alenym@qq.com
+date: 2016-12-22
 ---
 
 

@@ -1,7 +1,12 @@
 ---
 title: "Write a simple parser for MiniLisp by using JavaCC"
-categories: java javacc lisp
+tags: 
+  - java 
+  - javacc 
+  - lisp
+  
 author: alenym@qq.com
+date: 2017-5-19
 ---
 
 

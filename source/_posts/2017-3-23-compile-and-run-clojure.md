@@ -1,7 +1,12 @@
 ---
 title: "编译和运行Clojure分支20081217源码"
-categories: java clojure jvm
+tags: 
+  - java 
+  - clojure 
+  - jvm
+  
 author: alenym@qq.com
+date: 2017-3-23
 ---
 
 

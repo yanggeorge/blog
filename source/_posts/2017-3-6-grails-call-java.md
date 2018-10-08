@@ -1,7 +1,12 @@
 ---
 title: "How to call java code in Grails 3.2.6"
-categories: java grails gradle
+tags: 
+  - java 
+  - grails 
+  - gradle
+  
 author: alenym@qq.com
+date: 2017-3-6
 ---
  
 

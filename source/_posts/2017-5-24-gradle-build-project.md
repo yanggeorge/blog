@@ -1,7 +1,12 @@
 ---
 title: "Gradle脚本实现web开发框架的一键构建"
-categories: java gradle build 
+tags: 
+  - java 
+  - gradle 
+  - build 
+  
 author: alenym@qq.com
+date: 2017-5-24
 ---
 
 ## <a name="hh0"></a> 问题 ##

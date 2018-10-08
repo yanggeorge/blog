@@ -1,7 +1,10 @@
 ---
 title: 解决python3使用system-site-packages创建虚拟环境时没有pip的问题
-categories: Python3 venv
+tags: 
+  - python 
+  - venv
 author: alenym@qq.com
+date: 2017-1-18
 ---
 
 

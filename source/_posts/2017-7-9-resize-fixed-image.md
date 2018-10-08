@@ -1,7 +1,12 @@
 ---
 title: "How to resize VirtualBox fixed image size and keep contents unchanged ?"
-categories: image resize virutalbox
+tags: 
+  - image 
+  - resize 
+  - virutalbox
+  
 author: alenym@qq.com
+date: 2017-7-9
 ---
 
 

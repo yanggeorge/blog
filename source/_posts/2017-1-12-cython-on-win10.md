@@ -1,7 +1,11 @@
 ---
 title: 在WIN10下使用Cython
-categories: Cython  Python
+tags: 
+  - Cython  
+  - python
+  
 author: alenym@qq.com
+date: 2017-1-12
 ---
 
 

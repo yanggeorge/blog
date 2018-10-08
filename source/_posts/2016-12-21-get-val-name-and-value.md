@@ -1,7 +1,11 @@
 ---
 title: R和Python里得到传入参数的变量名
-categories: R  Python
+tags: 
+  - R  
+  - python
+  
 author: alenym@qq.com
+date: 2016-12-21
 ---
 
 
