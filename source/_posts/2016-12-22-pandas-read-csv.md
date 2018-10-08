@@ -4,10 +4,6 @@ categories:  Python 技巧
 author: alenym@qq.com
 ---
 
-## 目录 ##
-
-- [问题](#hh0) 
-- [解决问题](#hh1) 
 
 
 ## <a name="hh0"></a> 问题 ##
@@ -17,6 +13,8 @@ author: alenym@qq.com
 import pandas as pd
 df = pd.read_csv(file_path + file_name + ".csv", encoding="gbk")
 ```
+
+<!-- more -->
 
 把`csv`文件入库是一件脏活。表面上看`csv`文件是一个非常简单的
 逗号分隔符文件。但是其实不然。`Excel`转存的`csv`文件并不是标准的以逗号作为分隔符，

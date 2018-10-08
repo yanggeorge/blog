@@ -3,12 +3,6 @@ title: 在WIN10下使用Cython
 categories: Cython  Python
 author: alenym@qq.com
 ---
-## 目录 ##
-
-- [Cython](#hh0) 
-- [软件安装](#hh1) 
-- [跟着Cython的tutorial走](#hh2) 
-- [与python代码进行测试比较](#hh3) 
 
 
 ## <a name="hh0"></a> Cython ##
@@ -20,6 +14,8 @@ author: alenym@qq.com
 `Cython`不是`CPython`的简称，而是一种提升`Python`代码执行效率的解决方案。
 据说一般达到30x。一会我们来看看是不是真的。这个技术对老鸟来说已经是好多
 年前的了。但是很多情况下python用户真的用不上，所以不知道也无妨。
+
+<!-- more -->
 
 ## <a name="hh1"></a> 软件安装 ##
 

@@ -3,17 +3,15 @@ title: "How to resize VirtualBox fixed image size and keep contents unchanged ?"
 categories: image resize virutalbox
 author: alenym@qq.com
 ---
-## 目录 ##
 
-- [问题](#hh0) 
-- [用GParted实现](#hh1) 
-- [解决最后的小问题](#hh2) 
 
 
 ## <a name="hh0"></a> 问题 ##
 
 如何更改镜像文件的大小呢，尤其是如何把一个固定大小的镜像变大，并且之前的内容完全不改变。
 我尝试了一些方法，比如下面的几个步骤。1.查看信息，2.克隆新的vdi，3.调整大小，4.再查看信息。
+
+<!-- more -->
 
 > VBoxManage showhdinfo mydisk.vdi  
 > VBoxManage clonehd mydisk.vdi mydiskClone.vdi  

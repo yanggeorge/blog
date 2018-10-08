@@ -3,22 +3,16 @@ title: "Write a simple parser for MiniLisp by using JavaCC"
 categories: java javacc lisp
 author: alenym@qq.com
 ---
-## 目录 ##
 
-- [MiniLisp是什么？](#hh0) 
-- [JavaCC是什么？](#hh1) 
-- [MiniLisp的BNF语法描述没有怎么办？](#hh2) 
-- [MiniLisp的jj文件](#hh3) 
-- [测试代码](#hh4) 
 
 ## <a name="hh0"></a> MiniLisp是什么？ ##
 
 
 
-
-
 [MiniLisp](https://github.com/rui314/minilisp)是一个只用几百行代码实现的Lisp。以下是实现的
 基本特性。
+
+
 
 - integers, symbols, cons cells,
 - global variables,
@@ -31,7 +25,7 @@ author: alenym@qq.com
 - and a copying garbage collector.
 
 
-
+<!-- more -->
 
 
 在笔者看来真是麻雀虽小五脏俱全啊。这是一个非常值得研究的项目。

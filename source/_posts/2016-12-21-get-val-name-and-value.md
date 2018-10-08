@@ -4,11 +4,6 @@ categories: R  Python
 author: alenym@qq.com
 ---
 
-## 目录 ##
-
-- [问题](#hh0) 
-- [python可以做到](#hh1) 
-- [R也可以](#hh2) 
 
 
 ## <a name="hh0"></a> 问题 ##
@@ -24,7 +19,7 @@ author: alenym@qq.com
 参数的`name`。例如定义一个函数`foo(c)`, 给它传入参数`a`，我能够在函数
 内部知道传入参数的名字`a`。
 
-
+<!-- more -->
 
 我说可以增加一个参数嘛。把参数的名字直接传入。
 

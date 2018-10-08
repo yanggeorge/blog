@@ -3,12 +3,7 @@ title: "编译和运行Clojure分支20081217源码"
 categories: java clojure jvm
 author: alenym@qq.com
 ---
-## 目录 ##
 
-- [Clojure branch 20081217](#hh0) 
-- [下载branch 20081217](#hh1) 
-- [编译环境配置](#hh2) 
-- [运行　](#hh3) 
 
 ## <a name="hh0"></a> Clojure branch 20081217 ##
 
@@ -19,6 +14,8 @@ author: alenym@qq.com
 
 1. Clojure是一门jvm语言，使用了asm。
 2. branch 20081217是最初的版本便于研究。
+
+<!-- more -->
 
 ## <a name="hh1"></a> 下载branch 20081217 ##
 

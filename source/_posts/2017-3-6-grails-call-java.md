@@ -3,18 +3,9 @@ title: "How to call java code in Grails 3.2.6"
 categories: java grails gradle
 author: alenym@qq.com
 ---
-## 目录 ##
-
-- [解决方法](#hh0) 
-- [第一步](#hh1) 
-- [第二步](#hh2) 
-- [第三步](#hh3) 
-- [第四步](#hh4) 
-- [第五步](#hh5) 
+ 
 
 ## <a name="hh0"></a> 解决方法 ##
-
-
 
 
 
@@ -25,6 +16,7 @@ author: alenym@qq.com
 	| Groovy Version: 2.4.7
 	| JVM Version: 1.8.0_71
 
+<!-- more -->
 
 grails 3.2.6是用gradle进行构建的。所以如果要添加java类，
 就需要修改`build.gradle`。

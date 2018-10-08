@@ -3,12 +3,6 @@ title: 解决python3使用system-site-packages创建虚拟环境时没有pip的�
 categories: Python3 venv
 author: alenym@qq.com
 ---
-## 目录 ##
-
-- [python虚拟环境](#hh0) 
-- [WIN下的解决办法](#hh1) 
-- [Linux下的解决办法](#hh2) 
-- [可能的解决办法](#hh3) 
 
 
 
@@ -24,7 +18,7 @@ author: alenym@qq.com
 	python -m venv myenv
 
 
-
+<!-- more -->
 
 
 
