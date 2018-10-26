@@ -82,6 +82,7 @@ deploy:
   repo: git@github.com:yanggeorge/yanggeorge.github.io.git
   branch: master
 
+## markdown分段策略
 marked:
   gfm: true
   pedantic: false
