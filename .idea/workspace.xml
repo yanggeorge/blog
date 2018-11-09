@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/2018-11-8-leetcode-352.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-11-8-leetcode-352.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,12 +18,12 @@
     <session id="1822786558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,13 +44,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1912" />
+          <entry key="md" value="2011" />
           <entry key="yml" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1912" />
+          <entry key="Markdown" value="2011" />
           <entry key="YAML" value="93" />
         </counts>
       </usages-collector>
@@ -61,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/source/drafts/2018-10-08-minilisp.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="728">
+              <first_editor relative-caret-position="924">
                 <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               </first_editor>
               <second_editor />
@@ -73,8 +74,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/2018-11-8-leetcode-352.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="293">
-                <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <first_editor relative-caret-position="758">
+                <caret line="163" column="38" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -288,12 +289,13 @@
       <workItem from="1538967635407" duration="13375000" />
       <workItem from="1540517969720" duration="642000" />
       <workItem from="1541150082261" duration="1679000" />
-      <workItem from="1541640017871" duration="1863000" />
+      <workItem from="1541640017871" duration="2328000" />
+      <workItem from="1541726535239" duration="642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20362000" />
+    <option name="totallyTimeSpent" value="21469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1005" extended-state="6" />
@@ -550,7 +552,7 @@
     <entry file="file://$PROJECT_DIR$/source/drafts/2018-10-08-minilisp.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="728">
+          <first_editor relative-caret-position="924">
             <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           </first_editor>
           <second_editor />
@@ -592,8 +594,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2018-11-8-leetcode-352.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="293">
-            <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <first_editor relative-caret-position="758">
+            <caret line="163" column="38" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>
