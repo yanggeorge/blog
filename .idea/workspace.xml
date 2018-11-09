@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/drafts/2018-10-08-minilisp.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/drafts/2018-10-08-minilisp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2018-11-09-minilisp.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-11-09-minilisp.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +27,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="180" />
+          <entry key="md" value="181" />
           <entry key="png" value="1" />
           <entry key="swig" value="3" />
           <entry key="yml" value="6" />
@@ -36,20 +36,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Markdown" value="179" />
+          <entry key="Markdown" value="180" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="3425" />
+          <entry key="md" value="3427" />
           <entry key="yml" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="3425" />
+          <entry key="Markdown" value="3427" />
           <entry key="YAML" value="93" />
         </counts>
       </usages-collector>
@@ -58,11 +58,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/drafts/2018-10-08-minilisp.md">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2018-11-09-minilisp.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2992">
-                <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+              <first_editor relative-caret-position="-534">
+                <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -165,6 +165,7 @@
         <option value="$PROJECT_DIR$/source/about/index.md" />
         <option value="$PROJECT_DIR$/source/_posts/2018-11-8-leetcode-352.md" />
         <option value="$PROJECT_DIR$/source/drafts/2018-10-08-minilisp.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2018-11-09-minilisp.md" />
       </list>
     </option>
   </component>
@@ -220,12 +221,6 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="drafts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -289,12 +284,12 @@
       <workItem from="1540517969720" duration="642000" />
       <workItem from="1541150082261" duration="1679000" />
       <workItem from="1541640017871" duration="2328000" />
-      <workItem from="1541726535239" duration="5278000" />
+      <workItem from="1541726535239" duration="5616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26105000" />
+    <option name="totallyTimeSpent" value="26443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1005" extended-state="6" />
@@ -593,8 +588,18 @@
     <entry file="file://$PROJECT_DIR$/source/drafts/2018-10-08-minilisp.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2992">
-            <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+          <first_editor relative-caret-position="66">
+            <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2018-11-09-minilisp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-534">
+            <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
