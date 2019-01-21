@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,7 +56,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="373">
-                <caret line="281" column="24" lean-forward="true" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
+                <caret line="281" column="24" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -69,7 +68,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="435">
-                <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+                <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -80,8 +79,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="513">
-                <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
+              <first_editor relative-caret-position="1404">
+                <caret line="445" column="37" selection-start-line="445" selection-start-column="37" selection-end-line="445" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -272,12 +271,12 @@
       <workItem from="1547026137240" duration="9523000" />
       <workItem from="1547203549994" duration="598000" />
       <workItem from="1547458264107" duration="539000" />
-      <workItem from="1548063198242" duration="4323000" />
+      <workItem from="1548063198242" duration="5082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44462000" />
+    <option name="totallyTimeSpent" value="45221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -604,7 +603,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="435">
-            <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+            <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
@@ -614,7 +613,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="373">
-            <caret line="281" column="24" lean-forward="true" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
+            <caret line="281" column="24" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
@@ -623,8 +622,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="513">
-            <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
+          <first_editor relative-caret-position="1404">
+            <caret line="445" column="37" selection-start-line="445" selection-start-column="37" selection-end-line="445" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
