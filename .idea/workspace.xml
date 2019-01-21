@@ -79,8 +79,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="469">
-                <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+              <first_editor relative-caret-position="124">
+                <caret line="323" column="46" selection-start-line="323" selection-start-column="46" selection-end-line="323" selection-end-column="46" />
               </first_editor>
               <second_editor />
             </state>
@@ -271,12 +271,12 @@
       <workItem from="1547026137240" duration="9523000" />
       <workItem from="1547203549994" duration="598000" />
       <workItem from="1547458264107" duration="539000" />
-      <workItem from="1548063198242" duration="5322000" />
+      <workItem from="1548063198242" duration="6227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45461000" />
+    <option name="totallyTimeSpent" value="46366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,7 +291,7 @@
     <frame x="0" y="23" width="1280" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19138756" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19138756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,7 +302,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.27022654" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32847896" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -622,8 +622,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="469">
-            <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <first_editor relative-caret-position="124">
+            <caret line="323" column="46" selection-start-line="323" selection-start-column="46" selection-end-line="323" selection-end-column="46" />
           </first_editor>
           <second_editor />
         </state>
