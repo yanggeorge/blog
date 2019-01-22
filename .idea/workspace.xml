@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md" afterDir="false" />
-    </list>
+    <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -79,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="124">
-                <caret line="323" column="46" selection-start-line="323" selection-start-column="46" selection-end-line="323" selection-end-column="46" />
+              <first_editor relative-caret-position="245">
+                <caret line="263" column="40" selection-start-line="263" selection-start-column="40" selection-end-line="263" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -134,6 +132,8 @@
       <find>social</find>
       <find>auto_excerpt</find>
       <find>tags</find>
+      <find>unpack_extend</find>
+      <find>unpack_handshake</find>
     </findStrings>
     <replaceStrings>
       <replace>/images</replace>
@@ -271,12 +271,12 @@
       <workItem from="1547026137240" duration="9523000" />
       <workItem from="1547203549994" duration="598000" />
       <workItem from="1547458264107" duration="539000" />
-      <workItem from="1548063198242" duration="6227000" />
+      <workItem from="1548063198242" duration="6423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46366000" />
+    <option name="totallyTimeSpent" value="46562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -622,8 +622,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="124">
-            <caret line="323" column="46" selection-start-line="323" selection-start-column="46" selection-end-line="323" selection-end-column="46" />
+          <first_editor relative-caret-position="245">
+            <caret line="263" column="40" selection-start-line="263" selection-start-column="40" selection-end-line="263" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>
