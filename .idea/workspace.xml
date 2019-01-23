@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/2019-1-23-bt-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2019-1-21-bt-3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2019-1-23-bt-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2019-1-23-bt-4.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,8 +67,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-23-bt-4.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="445">
-                <caret line="156" column="9" selection-start-line="156" selection-start-column="9" selection-end-line="156" selection-end-column="9" />
+              <first_editor relative-caret-position="401">
+                <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -289,12 +287,12 @@
       <workItem from="1547203549994" duration="598000" />
       <workItem from="1547458264107" duration="539000" />
       <workItem from="1548063198242" duration="7141000" />
-      <workItem from="1548222819835" duration="2800000" />
+      <workItem from="1548222819835" duration="3064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50080000" />
+    <option name="totallyTimeSpent" value="50344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,8 +648,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-23-bt-4.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="445">
-            <caret line="156" column="9" selection-start-line="156" selection-start-column="9" selection-end-line="156" selection-end-column="9" />
+          <first_editor relative-caret-position="401">
+            <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
