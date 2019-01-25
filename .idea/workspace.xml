@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/2019-1-25-bt-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2019-1-25-bt-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2019-1-25-bt-5.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,8 +67,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-25-bt-5.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="235">
-                <caret line="282" column="8" lean-forward="true" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="8" />
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -289,12 +288,12 @@
       <workItem from="1547203549994" duration="598000" />
       <workItem from="1547458264107" duration="539000" />
       <workItem from="1548063198242" duration="7141000" />
-      <workItem from="1548222819835" duration="5212000" />
+      <workItem from="1548222819835" duration="5247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52492000" />
+    <option name="totallyTimeSpent" value="52527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,6 +306,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19138756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -659,8 +659,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2019-1-25-bt-5.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="235">
-            <caret line="282" column="8" lean-forward="true" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="8" />
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
