@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/_posts/2019-2-18-bt-6.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2019-2-18-bt-6.md" afterDir="false" />
-    </list>
+    <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -68,7 +66,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="309">
-                <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+                <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -290,12 +288,12 @@
       <workItem from="1547458264107" duration="539000" />
       <workItem from="1548063198242" duration="7141000" />
       <workItem from="1548222819835" duration="5706000" />
-      <workItem from="1550475998285" duration="5612000" />
+      <workItem from="1550475998285" duration="5767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58598000" />
+    <option name="totallyTimeSpent" value="58753000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -672,7 +670,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="309">
-            <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
