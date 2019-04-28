@@ -36,7 +36,7 @@ efbfbdefbfbd00010438
 
 bytes转化为string类型，本质上要选择一种编码。那么选择的是什么呢？
 我们看看`new String()`执行的代码。通过跟踪，可以看到，使用了默认的编码。
-csn为'UTF-8'。
+csn为`UTF-8`。
 
 ```
 static char[] decode(byte[] ba, int off, int len) {
@@ -62,10 +62,10 @@ static char[] decode(byte[] ba, int off, int len) {
 }
 ```
 
-因为通常java编译的时候的默认编码是"UTF-8"。
+因为通常java编译的时候的默认编码是`UTF-8`。
 那么如何保证转化为字符串还能够转换回来呢？
 
-一种方法是使用"ISO-8859-1"。例如，
+一种方法是使用`ISO-8859-1`。例如，
 
 ```java 
 byte[] a = new byte[]{(byte) 0xC0, (byte) 0xa8, (byte) 0x00, (byte) 0x01, (byte) 0x04, (byte) 0x38};
