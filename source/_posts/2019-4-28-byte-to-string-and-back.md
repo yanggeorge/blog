@@ -11,9 +11,11 @@ tags:
 
 用google搜索关键词"java bytes to string and back not equal"，第一个就是我说的这个问题。
 什么意思呢？就是在java中，bytes转化为string之后，再转换回bytes的时候，发现不相同了。
-但是Go语言就没有这个问题哦。
+但是`Go`语言就没有这个问题哦。
 
 <!-- more  -->
+
+运行如下java代码
 
 ```java
 byte[] a = new byte[]{(byte) 0xc0, (byte) 0xa8, (byte) 0x00, (byte) 0x01, (byte) 0x04, (byte) 0x38};
