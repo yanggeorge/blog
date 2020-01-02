@@ -11,4 +11,4 @@ title: 关于作者
 
 - [mini-lisp](https://github.com/yanggeorge/minilisp) 是一个简单的Lisp语言解释器，实现了闭包，宏等。
 
-- [bt-sniffer](https://github.com/yanggeorge/btsniffer) 是一个BT种子嗅探器。
+- [bt-sniffer](https://github.com/yanggeorge/btsniffer) 是一个基于netty的BT种子嗅探器。
