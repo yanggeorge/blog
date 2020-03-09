@@ -43,7 +43,7 @@ advertised.listeners=PLAINTEXT://host.docker.internal:9092
 3. 在容器内，访问`host.docker.internal:9092`
 
 
-这里解释一下,
+## 原理 ##  
 
 docker desktop for mac会默认提供一个域名`host.docker.internal`给容器内
 的应用访问主机的服务。所以，如果主机上启动一个rest服务`localhost:8080`，则容器内可以通过
