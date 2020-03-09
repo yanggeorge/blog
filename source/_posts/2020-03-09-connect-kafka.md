@@ -89,7 +89,7 @@ listeners=PLAINTEXT://localhost:9092
 
 我这里用`kafkacat`测试，实际上容器内的应用可以使用其他kafka客户端。
 
-连接broker并线上metadata
+连接broker,并显示metadata
 ```shell
 root@bb6b85562200:/# kafkacat -b host.docker.internal:9092 -L
 Metadata for all topics (from broker 0: host.docker.internal:9092/0):

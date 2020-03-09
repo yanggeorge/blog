@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/_posts/2020-03-09-connect-kafka.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2020-03-09-connect-kafka.md" afterDir="false" />
-    </list>
+    <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -103,8 +101,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/2020-03-09-connect-kafka.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="398">
-                <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+              <first_editor relative-caret-position="357">
+                <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               </first_editor>
               <second_editor />
             </state>
@@ -292,12 +290,12 @@
       <workItem from="1577949696116" duration="504000" />
       <workItem from="1578452641223" duration="11000" />
       <workItem from="1578453537828" duration="6000" />
-      <workItem from="1583736652684" duration="4888000" />
+      <workItem from="1583736652684" duration="5054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74721000" />
+    <option name="totallyTimeSpent" value="74887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,8 +711,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2020-03-09-connect-kafka.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="398">
-            <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          <first_editor relative-caret-position="357">
+            <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           </first_editor>
           <second_editor />
         </state>
