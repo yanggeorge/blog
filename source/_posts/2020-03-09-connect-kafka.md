@@ -18,7 +18,7 @@ tags:
 
 有几个原因，
 
-1. ClickHouse无法直接安装在mac上，编译安装内存不够。
+1. ClickHouse无法直接安装在mac上，需要编译（当然8G内存也可以编译，但是ninja需要限制job数量，要花很长时间）。
 2. 我的mac内存只有8G，使用vbox根本不可能，只能使用docker。
 3. 有现成的镜像，直接可以启动。并且host上可以直接连接ClickHouse。
 
