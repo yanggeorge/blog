@@ -16,7 +16,7 @@ tags:
 
 <!-- more  -->
 
-这里有篇文章很好的说明了Ingress的，并给出了例子 —— [Kubernetes Ingress with Nginx Example](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html)
+这里有篇文章很好的说明了Ingress，并给出了例子 —— [Kubernetes Ingress with Nginx Example](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html)
 
 但是要想跑一下，首先要有一个k8s集群。下面首先在mac上安装一个k8s集群。
 
