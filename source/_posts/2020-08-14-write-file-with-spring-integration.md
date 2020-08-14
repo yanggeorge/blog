@@ -15,7 +15,7 @@ Spring Integration是一个出现了10年的技术。随便搜索一下，就能
 
 <!-- more  -->
 
-难！
+难！很难！
 
 因为Spring Integration已经是一套DSL了。所以学习它就是学习一种新的语言，一种新的编程范式。
 
@@ -118,3 +118,5 @@ public class FileWriteGatewayTest {
 ```
 
 用法非常简单。但是配置却花了好长时间。但是只有通过使用才能慢慢理解这个框架。
+
+写代码是不是像搭积木，像玩`magspace`。
