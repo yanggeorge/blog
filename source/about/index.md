@@ -5,8 +5,6 @@ title: 关于作者
 
 这是yanggeorge的技术博客，以下是作者一些个人项目。
 
-- [tbload](https://github.com/yanggeorge/tbload) 是一个针对Thingsboard MQTT broker的压力测试工具。（基于Go）
-
 - [bt-sniffer](https://github.com/yanggeorge/btsniffer) 是一个基于netty的BT种子嗅探器。（基于Java）
 
 - [mini-lisp](https://github.com/yanggeorge/minilisp) 是一个精简的Lisp语言解释器，实现了闭包，宏等。(基于Java)
