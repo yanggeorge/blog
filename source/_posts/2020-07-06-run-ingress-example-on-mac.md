@@ -24,20 +24,20 @@ tags:
 
 我的mbp的配置是8G内存。
 
-1. 下载`docker desktop for mac`的`Edge`版本，因为这样搭配的几乎是最新的kubernets。
+1. 下载`Docker.dmg`。
 2. 从这里下载搭建k8s所需要的镜像——`https://github.com/gotok8s/k8s-docker-desktop-for-mac`
-使用的方法就是如下，我用的docker desktop的kubernates的版本是1.18.3所以，相应的要把文件`images`中的版本号进行修改，以匹配。
+使用的方法就是如下，我用的docker desktop的kubernates的版本是1.19.3所以，相应的要把文件`images`中的版本号进行修改，以匹配。
 ```
 $ git clone https://github.com/gotok8s/k8s-docker-desktop-for-mac.git
 $ cd k8s-docker-desktop-for-mac
 $ cat images
-k8s.gcr.io/kube-proxy:v1.18.3=gotok8s/kube-proxy:v1.18.3
-k8s.gcr.io/kube-controller-manager:v1.18.3=gotok8s/kube-controller-manager:v1.18.3
-k8s.gcr.io/kube-scheduler:v1.18.3=gotok8s/kube-scheduler:v1.18.3
-k8s.gcr.io/kube-apiserver:v1.18.3=gotok8s/kube-apiserver:v1.18.3
-k8s.gcr.io/coredns:1.6.7=gotok8s/coredns:1.6.7
+k8s.gcr.io/kube-proxy:v1.19.3=gotok8s/kube-proxy:v1.19.3
+k8s.gcr.io/kube-controller-manager:v1.19.3=gotok8s/kube-controller-manager:v1.19.3
+k8s.gcr.io/kube-scheduler:v1.19.3=gotok8s/kube-scheduler:v1.19.3
+k8s.gcr.io/kube-apiserver:v1.19.3=gotok8s/kube-apiserver:v1.19.3
+k8s.gcr.io/coredns:1.7.0=gotok8s/coredns:1.7.0
 k8s.gcr.io/pause:3.2=gotok8s/pause:3.2
-k8s.gcr.io/etcd:3.4.3-0=gotok8s/etcd:3.4.3-0
+k8s.gcr.io/etcd:3.4.13-0=gotok8s/etcd:3.4.13-0
 $ ./load_images.sh
 ```
 3. 启动docker desktop，并在dashboard中修改docker使用的资源大小。我分配了5G，
