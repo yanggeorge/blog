@@ -350,7 +350,7 @@ cmd/dist
 ## CLion调试cmd/dist ##
 
 如果要用CLion直接打开cmd/dist文件夹，会提示创建cmake项目，但是我们想直接使用调试Makefile项目。
-那么我们在创建一个Makefile文件，内容如下
+那么我们在cmd/dist目录下创建一个Makefile文件，内容如下
 
 ```
 CFLAGS = -mmacosx-version-min=10.6 -g -Wall -Werror '-DGOROOT_FINAL="/Users/ym/work/go1.4"'

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b26f18-277d-4111-8643-264d1f39856e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/2021-7-15-clion-makefile-debug.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/clion-debug-makefile-config.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/clion-makefile-debug-show.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-7-15-clion-makefile-debug.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-7-15-clion-makefile-debug.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <workItem from="1592794674017" duration="21000" />
       <workItem from="1598007367594" duration="95000" />
       <workItem from="1614567481832" duration="408000" />
-      <workItem from="1626345780001" duration="3478000" />
+      <workItem from="1626345780001" duration="3739000" />
     </task>
     <servers />
   </component>
