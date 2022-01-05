@@ -384,3 +384,5 @@ clean:
 最后先clean，然后断点调试`unix.c`文件中的main入口函数。
 
 ![clion-makefile-debug-show](/images/clion-makefile-debug-show.png)
+
+成功了。
