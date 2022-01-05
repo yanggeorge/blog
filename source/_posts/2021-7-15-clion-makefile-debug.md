@@ -20,7 +20,7 @@ tags:
 ## Go1.4源码 ## 
 
 Go语言项目从源码编译有几种方式，其中一种方式是基于[Bootstrap toolchain from C source code](https://golang.org/doc/install/source#bootstrapFromSource),
-也就是说，首先编译Go 1.4版本，然后用编译出来的`Go`，编译最新的Go版本。
+也就是说，首先编译Go 1.4版本，然后用编译出来的`Go`，编译最新的Go版本。(**UPDATE: Mac12.1 Monterey系统上不支持**)
 
 那么我下载这个Go1.4版本，[go1.4-bootstrap-20171003.tar.gz](https://dl.google.com/go/go1.4-bootstrap-20171003.tar.gz)，
 解压到某个路径下。
