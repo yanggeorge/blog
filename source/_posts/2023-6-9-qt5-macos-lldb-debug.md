@@ -1,5 +1,5 @@
 ---
-title:  "lldb调试qt5"
+title:  "LLDB调试Qt5"
 date: 2023-6-9
 author: alenym@qq.com
 tags: 
@@ -10,9 +10,9 @@ katex: true
 mathjax: true
 ---
 
-## lldb调试qt5的问题 ##
+## LLDB调试Qt5的问题 ##
 
-Mac下，lldb调试qt5应用通常会遇到无法打印QString变量的问题。
+Mac下，LLDB调试Qt5应用通常会遇到无法打印QString变量的问题。
 
 ```lldb
 * thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
@@ -33,7 +33,7 @@ Target 0: (a.out) stopped.
 
 <!-- more -->
 
-同样的，使用CLion等IDE使用lldb调试qt5应用的时候，也无法看到值。
+同样的，使用CLion等IDE使用LLDB调试Qt5应用的时候，也无法看到值。
 
 ## LLDB Qt Formatter ##
 
@@ -43,7 +43,7 @@ Target 0: (a.out) stopped.
 
 作者使用Xcode和LLDB开发Qt，苦于debug的时候看不到qt的内建类型的值。
 
-怎么办呢，简单的说就是lldb启动的时候，加载python脚本，把内建类型的显示值的计算方法替换掉。也就是lldb可以加载这样的自定义Formatter，
+怎么办呢，简单的说就是LLDB启动的时候，加载python脚本，把内建类型的显示值的计算方法替换掉。也就是LLDB可以加载这样的自定义Formatter，
 对变量进行格式化输出 —— [Variable Formatting](https://lldb.llvm.org/use/variable.html)，
 Python脚本非常适合实现复杂的Formatter —— [Python Scripting](https://lldb.llvm.org/use/variable.html#id7)
 
@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
 export PKG_CONFIG_PATH="/usr/local/opt/qt@5/lib/"
 ```
 
-然后lldb调试。
+然后LLDB调试a.out。
 
 ```lldb 
 $ lldb a.out
@@ -130,6 +130,6 @@ Target 0: (a.out) stopped.
 
 ## 总结 ##
 
-对lldb启动进行设置之后，CLion里也可以愉快的调试了。
+对LLDB启动进行设置之后，CLion里也可以愉快的调试了。
 
 ![lldb-debug-qt](./images/lldb-debug-qt.png)
