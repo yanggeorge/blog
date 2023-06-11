@@ -717,6 +717,13 @@
     "hexo-pagination" "1.0.0"
     "timsort" "^0.3.0"
 
+"hexo-generator-searchdb@^1.4.1":
+  "integrity" "sha512-7m8IBpZbI6iKb2jRYxs4pghD6Ln8ylQSRGl6MIC4G9wws21vYSXSD8rvC3MoCO+pWBHs6E/mTA/rjG+p2AZfVg=="
+  "resolved" "https://registry.npmmirror.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.4.1.tgz"
+  "version" "1.4.1"
+  dependencies:
+    "nunjucks" "^3.2.2"
+
 "hexo-generator-sitemap@^2.2.0":
   "integrity" "sha512-WoS/GpdrazoiFuhZXS3Qnb22L0uaiKHHWefcsoE7JLjh8WsksFom4v2FoNhr1RIYwFV7SudQFs91P5xcW+Gfow=="
   "resolved" "https://registry.npmmirror.com/hexo-generator-sitemap/-/hexo-generator-sitemap-2.2.0.tgz"
@@ -1208,7 +1215,7 @@
   "resolved" "https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz"
   "version" "3.0.0"
 
-"nunjucks@^3.1.6", "nunjucks@^3.2.1":
+"nunjucks@^3.1.6", "nunjucks@^3.2.1", "nunjucks@^3.2.2":
   "integrity" "sha512-psb6xjLj47+fE76JdZwskvwG4MYsQKXUtMsPh6U0YMvmyjRtKRFcxnlXGWglNybtNTNVmGdp94K62/+NjF5FDQ=="
   "resolved" "https://registry.npmmirror.com/nunjucks/-/nunjucks-3.2.3.tgz"
   "version" "3.2.3"
