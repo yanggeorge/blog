@@ -1,11 +1,11 @@
 ---
-title:  "Mac下基于CMake自动打包部署Qt5项目"
+title:  "MacOS下基于CMake自动打包部署Qt5项目"
 date: 2023-6-7
 author: alenym@qq.com
 tags: 
   - qt5
   - cmake
-  - mac
+  - macos
   - bundle
 katex: true 
 mathjax: true
@@ -13,14 +13,14 @@ mathjax: true
 
 ## Qt5项目打包部署 ##
 
-Mac下打包部署Qt5项目可以参考[Qt for macOS - Deployment](https://doc.qt.io/qt-5/macos-deployment.html)。
+MacOS下打包部署Qt5项目可以参考[Qt for macOS - Deployment](https://doc.qt.io/qt-5/macos-deployment.html)。
 这里采用cmake构建Qt5项目。
 
 <!-- more -->
 
 ## CMake打包要点说明 ##
 
-Mac下针对一个PicPicker的具体项目，说明CMake打包项目的要点:
+MacOS下针对一个PicPicker的具体项目，说明CMake打包项目的要点:
 
 1. 设置针对构建Qt项目的全局选项。
 ```cmake

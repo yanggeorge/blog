@@ -1,18 +1,19 @@
 ---
-title:  "LLDB调试Qt5"
+title:  "MacOS下LLDB调试Qt5程序"
 date: 2023-6-9
 author: alenym@qq.com
-tags: 
+tags:
   - qt5
   - lldb
   - debug
+  - macos
 katex: true 
 mathjax: true
 ---
 
 ## LLDB调试Qt5的问题 ##
 
-Mac下，LLDB调试Qt5应用通常会遇到无法打印QString变量的问题。
+MacOS下，LLDB调试Qt5应用通常会遇到无法打印QString变量的问题。
 
 ```lldb
 * thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
