@@ -5,7 +5,7 @@ title: 关于作者
 
 这是alenym@qq.com的技术博客，以下是作者一些个人项目。
 
-- [bt-sniffer](https://gitee.com/yanggeorge/btsniffer) 是一个基于netty的收集BT种子的嗅探器。（基于Java）
+- [bt-sniffer](https://gitee.com/yanggeorge/btsniffer) 是一个基于netty的收集BT种子元数据的嗅探器。（基于Java）
 
 - [mini-lisp](https://gitee.com/yanggeorge/minilisp) 是一个精简的Lisp语言解释器，实现了闭包，宏等特性。(基于Java)
 
