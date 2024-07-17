@@ -1,7 +1,7 @@
 ---
 title:  k3s的Pod无法解析内网域名
 date: 2021-12-26
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - k3s
   - pod

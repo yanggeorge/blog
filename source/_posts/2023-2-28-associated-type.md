@@ -1,7 +1,7 @@
 ---
 title:  "使用Iced的过程中理解Rust的关联类型"
 date: 2023-2-28
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - rust
   - iced

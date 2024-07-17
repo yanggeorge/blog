@@ -4,8 +4,8 @@ tags:
   - java 
   - javacc 
   - lisp
-  
-author: alenym@qq.com
+
+author: Ming Yang
 date: 2017-5-19
 ---
 

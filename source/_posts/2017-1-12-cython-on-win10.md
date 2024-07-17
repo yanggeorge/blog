@@ -4,7 +4,7 @@ tags:
   - Cython  
   - python
   
-author: alenym@qq.com
+author: Ming Yang
 date: 2017-1-12
 ---
 

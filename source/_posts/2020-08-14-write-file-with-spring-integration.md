@@ -1,7 +1,7 @@
 ---
 title:  基于Spring Integration实现文件写入
 date: 2020-08-14
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - spring
   - integration

@@ -1,7 +1,7 @@
 ---
 title:  基于CLion和gdbserver实现远程调试c程序
 date: 2020-09-08
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - debug
   - CLion

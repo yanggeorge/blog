@@ -1,7 +1,7 @@
 ---
 title:  docker容器内访问mac主机的kafka
 date: 2020-03-09
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - kafka
   - container

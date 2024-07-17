@@ -1,7 +1,7 @@
 ---
 title:  "通过ChatGPT实现Rust语言的八皇后算法"
 date: 2023-1-12
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - ChatGPT
   - rust

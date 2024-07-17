@@ -1,7 +1,7 @@
 ---
 title:  "MacOS下LLDB调试Qt5程序"
 date: 2023-6-9
-author: alenym@qq.com
+author: Ming Yang
 tags:
   - qt5
   - lldb

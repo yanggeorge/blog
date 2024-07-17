@@ -1,7 +1,7 @@
 ---
 title: Java语言中bytes convert to string and back not equal
 date: 2019-4-28
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - java 
   - golang

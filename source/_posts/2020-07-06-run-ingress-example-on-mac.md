@@ -1,7 +1,7 @@
 ---
 title:  在mac下跑一个Ingress的例子
 date: 2020-07-06
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - k8s
   - ingress

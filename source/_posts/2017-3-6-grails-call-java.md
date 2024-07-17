@@ -5,7 +5,7 @@ tags:
   - grails 
   - gradle
   
-author: alenym@qq.com
+author: Ming Yang
 date: 2017-3-6
 ---
  

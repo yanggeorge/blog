@@ -4,7 +4,7 @@ tags:
   - python 
   - 技巧
   
-author: alenym@qq.com
+author: Ming Yang
 date: 2016-12-22
 ---
 

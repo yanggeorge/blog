@@ -4,9 +4,9 @@ tags:
   - image 
   - resize 
   - virutalbox
-  
-author: alenym@qq.com
-date: 2017-7-9
+
+author: Ming Yang
+date: 2017-07-09
 ---
 
 

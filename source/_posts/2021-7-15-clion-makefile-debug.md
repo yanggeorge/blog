@@ -1,7 +1,7 @@
 ---
 title:  CLion2021调试Makefile项目
 date: 2021-7-15
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - clion
   - makefile

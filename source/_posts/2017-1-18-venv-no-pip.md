@@ -3,7 +3,7 @@ title: 解决python3使用system-site-packages创建虚拟环境时没有pip的�
 tags: 
   - python 
   - venv
-author: alenym@qq.com
+author: Ming Yang
 date: 2017-1-18
 ---
 

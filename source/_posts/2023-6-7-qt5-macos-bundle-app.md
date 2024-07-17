@@ -1,7 +1,7 @@
 ---
 title:  "MacOS下基于CMake自动打包部署Qt5项目"
 date: 2023-6-7
-author: alenym@qq.com
+author: Ming Yang
 tags: 
   - qt5
   - cmake

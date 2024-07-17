@@ -4,8 +4,8 @@ tags:
   - java 
   - clojure 
   - jvm
-  
-author: alenym@qq.com
+
+author: Ming Yang
 date: 2017-3-23
 ---
 
