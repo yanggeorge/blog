@@ -314,9 +314,9 @@ navbar:
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "language", link: "https://threelambda.com/en/", icon: "iconfont icon-language2", name: "English" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
@@ -923,7 +923,7 @@ about:
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
-  name: "杨明"
+  name: "Ming Yang"
   intro: "alenym@gmail.com"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code

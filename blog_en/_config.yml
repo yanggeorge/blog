@@ -4,18 +4,19 @@
 
 # Site
 title: CodeCraft
-subtitle: 剧本人生，代码之页
+subtitle: Scripted Life, Pages of Code
 description:
 keywords:
-author: alenym@qq.com
-language: zh-CN
+author: Ming Yang
+language: en
 timezone:
 google_analytics: G-X6VGKB3GW8  # track id （跟踪id）
 
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://threelambda.com
+url: https://threelambda.com
+root: /en
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
