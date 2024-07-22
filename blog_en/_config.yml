@@ -15,7 +15,7 @@ google_analytics: G-X6VGKB3GW8  # track id （跟踪id）
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://threelambda.com
+url: https://threelambda.com/en/
 root: /en
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -128,7 +128,7 @@ sitemap:
   template: ./sitemap_template.xml
   rel: false
   tags: true
-  categories: true
+  categories: false
 
 search:
   path: search.xml
