@@ -3,7 +3,7 @@ title: 关于作者
 layout: about
 ---
 
-这是杨明的技术博客，以下是一些个人项目。
+以下是一些个人项目。
 
 - [bt-sniffer](https://gitee.com/yanggeorge/btsniffer) 是一个基于netty的收集BT种子元数据的嗅探器。项目相关链接如下：
   - {% post_link 2019-1-9-bt-1 %}

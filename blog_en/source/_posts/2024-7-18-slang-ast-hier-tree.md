@@ -1,5 +1,5 @@
 ---
-title:  "如何更好的打印语法树结构"
+title:  "How to Better Print Syntax Tree Structures"
 date: 2024-7-18
 author: Ming Yang
 tags:
@@ -10,51 +10,45 @@ katex: true
 mathjax: true
 ---
 
-## 什么是语法树 ##
+## What is a Syntax Tree? ##
 
-语法树（Syntax Tree），是一种树状数据结构，
-用于表示源代码的语法结构。每个节点都表示源代码中的一种语法结构。
-语法树在编译器和解释器中被广泛使用，以帮助分析和处理编程语言的源代码。
+A Syntax Tree is a tree-like data structure used to represent the syntactic structure of source code. Each node represents a syntactic construct occurring in the source code. Syntax trees are widely used in compilers and interpreters to help analyze and process the source code of programming languages.
 
 <!-- more -->
 
-语法树可以进一步分成具体语法树（**C**oncrete **S**yntax **T**ree）和抽象语法树（**A**bstract **S**yntax **T**ree）。
-编译器前端通常会根据BNF语法生成CST，然后再根据语义构建AST。
+Syntax trees can be further divided into **C**oncrete **S**yntax **T**ree and **A**bstract **S**yntax **T**ree. The front end of a compiler typically generates a CST based on BNF grammar and then constructs an AST based on semantics.
 
-为了方便用户使用语法树，通常会支持Visitor设计模式，这样自定义的Visitor就可以针对感兴趣的节点类型进行遍历。
+To facilitate the use of syntax trees, the Visitor design pattern is usually supported. This allows a custom Visitor to traverse node types of interest.
 
-**所以这样就引出一个问题，节点类型那么多，如何能直观的看到这个树形结构呢？尤其对于不支持反射的C++，无法Debug查看类型**
+**This raises a question: with so many node types, how can we intuitively visualize this tree structure, especially in C++, which does not support reflection and thus cannot debug to inspect types?**
 
-下面是作者在基于[slang](https://sv-lang.com/)项目开发Lint规则的时候，作出的一些尝试。
+Below are some attempts the author made while developing Lint rules based on the [slang](https://sv-lang.com/) project.
 
-slang是一个Modern C++项目，使用了很多C++17和C++20新特性。
+Slang is a Modern C++ project that employs many new features from C++17 and C++20.
 
-
-> slang is a software library that provides various components for lexing, parsing, type checking, and elaborating SystemVerilog code. It comes with an executable tool that can compile and lint any SystemVerilog project, but it is also intended to be usable as a front end for synthesis tools, simulators, linters, code editors, and refactoring tools.
+> Slang is a software library that provides various components for lexing, parsing, type checking, and elaborating SystemVerilog code. It comes with an executable tool that can compile and lint any SystemVerilog project, but it is also intended to be usable as a front end for synthesis tools, simulators, linters, code editors, and refactoring tools.
 >
-> slang is the fastest and most compliant SystemVerilog frontend
-> 
+> Slang is the fastest and most compliant SystemVerilog frontend.
 
+Before addressing this issue, it's necessary to provide a brief introduction to `SystemVerilog`. Then, the syntax tree serialized in JSON format will be presented, followed by the author's solution for comparison.
 
-那么在说明这个问题之前，还是要对`SystemVerilog`进行简单的介绍。然后给出序列化为json格式的语法树，最后给出作者方案作为比较。
+## Introduction to SystemVerilog ##
 
-## SystemVerilog简介 ##
+`SystemVerilog` is a hardware description and verification language (HDVL) that extends the `Verilog` hardware description language. It combines the features of both hardware description languages (HDL) and hardware verification languages (HVL), aiming to provide a more powerful and flexible tool for designing and verifying digital systems. SystemVerilog was developed by the Accellera standards organization and has been standardized by the IEEE Standards Association as IEEE 1800.
 
-`SystemVerilog` 是一种硬件描述和验证语言（HDVL），是`Verilog`硬件描述语言的扩展。它结合了硬件描述语言（HDL）和硬件验证语言（HVL）的特性，旨在提供一种更强大和灵活的工具来设计和验证数字系统。SystemVerilog 由 Accellera 标准组织开发，并已被 IEEE 标准协会标准化为 IEEE 1800。
+### Main Features of SystemVerilog
 
-### SystemVerilog 的主要特点
+1. **Synthesis and Simulation**: Supports design synthesis and simulation, allowing the description of hardware circuits and verification of their behavior.
+2. **Object-Oriented Programming**: Introduces object-oriented programming concepts such as classes, inheritance, and polymorphism for developing more complex testbenches.
+3. **Advanced Verification Features**: Includes many advanced verification features like assertions, constraint randomization, and coverage.
+4. **Interfaces and Modularity**: Supports interface and modular programming, promoting the reusability and modularity of designs.
+5. **Parallel Processing**: Capable of parallel processing to describe parallel hardware behavior.
+6. **Combinational and Sequential Logic**: Supports the modeling of both combinational and sequential logic.
 
-1. **综合和仿真**：支持设计综合（synthesis）和仿真（simulation），可以用来描述硬件电路并验证其行为。
-2. **面向对象编程**：引入了面向对象编程（OOP）概念，如类（class）、继承（inheritance）、多态（polymorphism）等，用于更复杂的测试平台开发。
-3. **高级验证功能**：包含了许多高级验证功能，如断言（assertions）、约束随机化（constraint randomization）、覆盖率（coverage）等。
-4. **接口和模块化**：支持接口（interface）和模块化编程，促进设计的可重用性和模块化。
-5. **并行处理**：具有并行处理能力，可以描述并行硬件行为。
-6. **组合逻辑和时序逻辑**：支持组合逻辑和时序逻辑的建模。
+### Basic Constructs of SystemVerilog
 
-### SystemVerilog 的基本构造
-
-#### 模块
-模块（module）是 `SystemVerilog` 的基本构造，用于定义电路的结构和行为。例如：
+#### Module
+A module is the basic construct in `SystemVerilog`, used to define the structure and behavior of a circuit. For example:
 
 ```verilog
 module adder (
@@ -66,8 +60,8 @@ module adder (
 endmodule
 ```
 
-#### 接口
-接口（interface）用于定义模块之间的通信信号。例如：
+#### Interface
+An interface is used to define the communication signals between modules. For example:
 
 ```verilog
 interface simple_bus (
@@ -79,8 +73,8 @@ interface simple_bus (
 endinterface
 ```
 
-#### 类
-类（class）用于验证环境中的面向对象编程。例如：
+#### Class
+A class is used for object-oriented programming in the verification environment. For example:
 
 ```verilog
 class Packet;
@@ -93,23 +87,24 @@ class Packet;
 endclass
 ```
 
-### SystemVerilog 的应用
+### Applications of SystemVerilog
 
-1. **硬件设计**：用于描述数字电路的结构和行为，可以综合成实际的硬件电路。
-2. **硬件验证**：提供了丰富的验证功能，用于验证数字设计的正确性和性能，包括功能验证和形式验证。
-3. **测试平台开发**：可以用来开发复杂的测试平台，进行全面的硬件设计验证。
+1. **Hardware Design**: Used to describe the structure and behavior of digital circuits, which can be synthesized into actual hardware circuits.
+2. **Hardware Verification**: Provides rich verification features for validating the correctness and performance of digital designs, including functional and formal verification.
+3. **Testbench Development**: Can be used to develop complex testbenches for comprehensive hardware design verification.
 
-### SystemVerilog 的优势
+### Advantages of SystemVerilog
 
-1. **增强的表达能力**：相比于 Verilog，SystemVerilog 提供了更强大的语法和语义，可以更高效地描述复杂的硬件和验证环境。
-2. **高效的验证方法**：引入了约束随机化、覆盖率驱动验证和断言等先进验证技术，大大提高了验证效率。
-3. **面向对象编程**：支持面向对象编程，使得验证代码更具结构性和可维护性。
+1. **Enhanced Expressiveness**: Compared to Verilog, SystemVerilog offers more powerful syntax and semantics for more efficient description of complex hardware and verification environments.
+2. **Efficient Verification Methods**: Introduces advanced verification technologies such as constraint randomization, coverage-driven verification, and assertions, significantly improving verification efficiency.
+3. **Object-Oriented Programming**: Supports object-oriented programming, making verification code more structured and maintainable.
 
-总的来说，`SystemVerilog` 是一种强大且灵活的硬件描述和验证语言，广泛应用于现代数字电路设计和验证领域。
+Overall, `SystemVerilog` is a powerful and flexible hardware description and verification language widely used in modern digital circuit design and verification.
 
-## slang给出的json格式的AST ## 
+## JSON Format AST Provided by slang ## 
 
-slang项目提供了一个命令行工具，并提供了`--ast-json`来序列化AST为json格式。还是以这个加法器模块为例，
+The slang project offers a command-line tool and provides the `--ast-json` option to serialize the AST into JSON format. Let's take this adder module as an example:
+
 ```verilog
 module adder (
     input logic [3:0] a,
@@ -119,7 +114,7 @@ module adder (
     assign sum = a + b;
 endmodule
 ```
-序列化的json结构如下
+The serialized JSON structure is as follows:
 ```json
 {
   "design": {
@@ -238,11 +233,13 @@ endmodule
 }        
 ```
 
-是不是首先感到，这个json格式有点太长了，因为一个节点会有很多属性。而且通过缩进也很难看出来节点的父子关系。
+At first glance, this JSON format might seem too long because a node can have many attributes. Additionally, the indentation does not make the parent-child relationships clear.
 
-## tree命令行的启发 ## 
+## Inspiration from the tree Command ## 
 
-树状结构是一个二维结构，很难展示。不过命令工具tree打印的树状结构非常清晰。
+
+
+Tree structures are two-dimensional and difficult to display. However, the tree command tool prints tree structures very clearly.
 
 ```shell
 $ tree .
@@ -253,13 +250,13 @@ $ tree .
      ├── b.txt
      └── c.txt
 ```
-可以看到这种展示方式很好的把父子关系展示了出来，清楚的看到一个目录下所包含的文件。
+This display method clearly shows the parent-child relationships, making it easy to see which files are contained within each directory.
 
-这种具体的层次树`hierarchical tree`称之为目录树。
+This specific hierarchical tree is known as a directory tree.
 
-## 解决方案展示 ##
+## Solution Display ##
 
-还是这个sv代码
+Using the same SystemVerilog code:
 
 ```verilog
 module adder (
@@ -271,31 +268,27 @@ module adder (
 endmodule
 ```
 
-### AST的优化展示 ### 
-我们展示一下用目录树的方式，展现AST
+### Optimized AST Display ### 
+Let's display the AST using the directory tree method:
 
 ![adder-ast](./images/2024-adder-ast.jpg)
-可以看到每一行都是一个key-value键值对，用冒号分隔。同时加上term颜色区分。
 
-绿色的key是节点的class类型，value部分则是节点的属性信息，以空格分隔。
+As you can see, each line is a key-value pair separated by a colon. Additionally, term colors are used for differentiation.
 
-这样就可以以紧凑的方式展示AST。
+The green key represents the class type of the node, and the value part represents the attribute information of the node, separated by spaces.
 
-### CST的优化展示 ### 
+This allows the AST to be displayed in a compact manner.
 
-`slang`并没有给出命令行的方式展现CST，但是用户可能需要直接访问CST进行一些处理，
-例如：格式化sv代码。
+### Optimized CST Display ### 
 
-下面是用相似的方式展现`adder`的CST数据结构。可以看出来，叶子节点的value就是该节点的原始文本。
+Slang does not provide a command-line method to display the CST, but users may need to access the CST directly for tasks such as formatting SystemVerilog code.
+
+Below is the CST structure of `adder` displayed in a similar way. You can see that the value of the leaf node is the original text of the node.
 
 ![adder-cst](./images/2024-adder-cst.png)
 
+## Summary ## 
 
-## 总结 ## 
+By referring to the directory tree display method and combining key-value pairs with term colors, a more compact and clear syntax tree display method is provided. This method makes it easier for users to develop based on AST and CST.
 
-参考目录树的展示方式，结合key-value和term color给出了更加紧凑和清晰的语法树展现方式。这种方式更加方便用户基于AST和CST进行开发。 
-
-但是这种方式的缺点也是明确的，
-就是不适合作为文本方式保存。也不适合展示大的代码。当然json方式也不适合（但是都可以通过hierarchical path的约束，只展示部分语法树结构。）。
-
-
+However, the disadvantages of this method are also clear. It is not suitable for text-based storage and is not ideal for displaying large codes. Of course, JSON format is also not suitable (but both can be constrained by hierarchical paths, displaying only parts of the syntax tree structure).

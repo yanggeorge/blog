@@ -3,9 +3,9 @@ title: 关于作者
 layout: about
 ---
 
-这是杨明的技术博客，以下是一些个人项目。
+This is Ming's technical blog. Here are some of the personal projects:
 
-- [bt-sniffer](https://gitee.com/yanggeorge/btsniffer) 是一个基于netty的收集BT种子元数据的嗅探器。项目相关链接如下：
-- [mini-lisp](https://gitee.com/yanggeorge/minilisp) 是一个精简的Lisp语言解释器，实现了闭包，宏等特性。
-- [simple-socks5](https://gitee.com/yanggeorge/simple-socks5) 是一个基于netty的socks5代理。
-- [scraper](https://gitee.com/yanggeorge/scraper) 是一个网页数据采集的工具。
+- [bt-sniffer](https://gitee.com/yanggeorge/btsniffer) is a BT seed metadata sniffer based on Netty.
+- [mini-lisp](https://gitee.com/yanggeorge/minilisp) is a minimal Lisp language interpreter with features such as closures and macros.
+- [simple-socks5](https://gitee.com/yanggeorge/simple-socks5) is a Socks5 proxy based on Netty.
+- [scraper](https://gitee.com/yanggeorge/scraper) is a web data collection tool.
