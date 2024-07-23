@@ -1,0 +1,16 @@
+{
+  "id": "4629291",
+  "name": "hexo-blog",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "hexo和fluid的blog中的icon",
+  "glyphs": [
+    {
+      "icon_id": "31903507",
+      "name": "language",
+      "font_class": "language",
+      "unicode": "e77d",
+      "unicode_decimal": 59261
+    }
+  ]
+}

@@ -207,7 +207,8 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
-  - //at.alicdn.com/t/c/font_4629291_dx035s4nt6a.css
+  - /css/font_4629291_x5qj7u7xj0n/iconfont.css
+#  - //at.alicdn.com/t/c/font_4629291_dx035s4nt6a.css
 
 # 网页访问统计
 # Analysis of website visitors
